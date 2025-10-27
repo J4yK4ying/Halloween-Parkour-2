@@ -1,0 +1,90 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Halloween parkour adventue",
+    "description": "A  Halloween themed parkour coin hunt adventure, #DCLVibeHackathon",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "assets/scene/Images/halloweenparkourworldmap-min.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "JayKaying",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "art",
+    "game",
+    "music"
+  ],
+  "scene": {
+    "base": "-99,103",
+    "parcels": [
+      "-99,106",
+      "-98,106",
+      "-97,106",
+      "-96,106",
+      "-95,106",
+      "-99,105",
+      "-98,105",
+      "-97,105",
+      "-96,105",
+      "-95,105",
+      "-99,104",
+      "-98,104",
+      "-97,104",
+      "-96,104",
+      "-95,104",
+      "-99,103",
+      "-98,103",
+      "-97,103",
+      "-96,103",
+      "-95,103"
+    ]
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 1",
+      "default": true,
+      "position": {
+        "x": [
+          24,
+          27
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          2,
+          5
+        ]
+      },
+      "cameraTarget": {
+        "x": 26,
+        "y": 1,
+        "z": 12
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "49a0f157-d0f7-4529-bd5d-c3ac42688ea5"
+  },
+  "skyboxConfig": {
+    "fixedTime": 86340
+  },
+  "rating": "T",
+  "worldConfiguration": {
+    "name": "jezter.dcl.eth"
+  }
+}
